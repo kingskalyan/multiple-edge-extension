@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>style</title>
+      <style>
+          body{
+              background-color: black;
+          }
+        .title{
+        margin-bottom: 10px;
+        text-align:center;
+        width: 210px;
+        color: lightblue;
+        border: solid black 2px;
+        }
+ 
+        input[type="button"]
+        {
+        background-color:yellow;
+        color: black;
+        border: solid black 2px;
+        width:100%
+        }
+ 
+        input[type="text"]
+        {
+        background-color:white;
+        border: solid black 2px;
+        width:100%
+        }
+     </style>
+  </head>
+  <body>
+     <script src="index.js"></script>
+    <div class = title >Simple Calculator</div>
+    <table border="1">
+       <tr>
+          <td colspan="3"><input type="text" id="result"/></td>
+          <td><input type="button" value="c" onclick="clr()"/> </td>
+       </tr>
+       <tr>
+          <td><input id="i1"  type="button" value="1" onclick="dis('1')" /> </td>
+         <td><input id="i2"  type="button" value="2" onclick="dis('1')" /> </td>
+          <td><input id="i3"  type="button" value="3" onclick="dis('1')" /> </td>
+          <td><input id="i4"  type="button" value="/" onclick="dis('1')" /> </td>
+       </tr>
+       <tr>
+         <td><input id="i5"   type="button" value="4" onclick="dis('1')" /> </td>
+         <td><input id="i6"  type="button" value="5" onclick="dis('1')" /> </td>
+          <td><input id="i7"  type="button" value="6" onclick="dis('1')" /> </td>
+          <td><input id="i8"  type="button" value="-" onclick="dis('1')" /> </td>
+       </tr>
+       <tr>
+          <td><input id="i9"   type="button" value="7" onclick="dis('1')" /> </td>
+          <td><input id="i10"  type="button" value="8" onclick="dis('1')" /> </td>
+          <td><input id="i11"  type="button" value="9" onclick="dis('1')" /> </td>
+          <td><input id="i12"  type="button" value="+" onclick="dis('1')" /> </td>
+       </tr>
+       <tr>
+          <td><input id="i13" type="button" value="." onclick="dis('1')" /> </td>
+          <td><input id="i14" type="button" value="0" onclick="dis('1')" /> </td>
+          <td><input  id="i15" type="button" value="=" onclick="dis('1')" /> </td>
+          <td><input id="i16" type="button" value="*" onclick="dis('1')" /> </td>
+       </tr>
+    </table>
+ </body>
+</html>   

@@ -1,0 +1,24 @@
+{
+    "name":"marvel",
+    "version":"0.1",
+    "manifest_version":2,
+    "description": "this is a extension",
+    "icons":{
+       "128":"i2.png"
+    },
+    "browser_action":{
+        "default_title":"marvel extension",
+        "default_popup": "index.html"
+    },
+
+    "content_scripts":[
+        {
+          "matches":["<all_urls>"],
+          "js":["some.js"]
+        }
+    ],
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["script.js"]
+    }
+}

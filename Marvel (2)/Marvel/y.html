@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d1">
+        <h1 id="x">covid-19 live tracking</h1>
+    </div>
+    <div class="d2">
+             <table class="table">
+                   <thead class="thead">
+                       <tr class="some">
+                           <th class="x">Date</th>
+                           <th class="x">New Confirmed</th>
+                           <th class="x">TotalConfirmed</th>
+                           <th class="x">New Deaths</th>
+                           <th class="x">Total Deaths</th>
+                           <th class="x">New Recovered</th>
+                           <th class="x">Total Recovered</th>
+                       </tr>
+                   </thead>
+                   <tbody class="tbody">
+                      <td><input type="text" id="result1"></td>
+                      <td><input type="text" id="result2"></td>
+                      <td><input type="text" id="result3"></td>
+                      <td><input type="text" id="result4"></td>
+                      <td><input type="text" id="result5"></td>
+                      <td><input type="text" id="result6"></td>
+                      <td><input type="text" id="result7"></td>
+                   </tbody>
+               </table>
+           <p id="a">click refresh to get data</p>
+           <button id="btn" class="z" >Refresh</button>
+    </div>
+    <br>
+
+</body>
+</html>
+<script src="script.js">
+</script>
+<style>
+    body{
+        background:url("cb.jpg");
+        color: white;
+        height: 6cm;
+    }
+    #x{
+        text-align: center;;
+    }
+    button{
+  outline: 0;
+  position: relative;
+  display: inline-block;
+  padding: 5px 40px;
+  font-size: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #4b00ff;
+  background: #4b00ff;
+  color: #fff;
+  font-weight: 500;
+  transition: box-shadow 0.5s ease-in-out;
+  border-color: 0.5s ease-in-out;
+  border-radius: 9px;
+}
+button:hover{
+  background-color: #4b00ff;
+  color: #fff;
+  box-shadow: 0 0 5px #4b00ff,
+             0 0 20px rgb(75 0 255/0.8), 
+             0 0 35px rgb(75 0 255/0.7), 
+             0 0 50px rgb(75 0 255/0.6); 
+}
+input{
+    text-decoration: none;
+    color: black;
+
+}
+</style>
